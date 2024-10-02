@@ -55,18 +55,24 @@ using namespace std;
 
             case 2:
                 hasil = pengurangan(operand1, operand2);
-                cout << "Hasil dari pengurangan untuk " << operand1 << " dan " << operand2 << " adalah " << hasil << endl;
+                cout << "Hasil dari pengurangan dari" << endl;
+                cout << operand1 << " - " << operand2 << endl;
+                cout << "= " << hasil << endl;
                 break;
 
             case 3:
                 hasil = perkalian(operand1, operand2);
-                cout << "Hasil dari perkalian untuk " << operand1 << " dan " << operand2 << " adalah " << hasil << endl;
+                cout << "Hasil dari perkalian dari" << endl;
+                cout << operand1 << " x " << operand2 << endl;
+                cout << "= " << hasil << endl;
                 break;
 
             case 4:
                 hasil = pembagian(operand1, operand2);
                 if (operand2 != 0) {
-                    cout << "Hasil dari pembagian untuk " << operand1 << " dan " << operand2 << " adalah " << hasil << endl;
+                cout << "Hasil dari pembagian dari" << endl;
+                cout << operand1 << " / " << operand2 << endl;
+                cout << "= " << hasil << endl;
                 }
                 break;
 
